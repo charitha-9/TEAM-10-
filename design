@@ -1,0 +1,385 @@
+body.auth-body {
+  background: url('../images/bg-login.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500vh;
+}
+
+.auth-container {
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(128, 0, 128, 0.2); /* soft purple shadow */
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+.auth-container h2 {
+  margin-bottom: 20px;
+  color: #7b5ea6; /* medium purple */
+}
+
+input {
+  width: 100%;
+  padding: 14px;
+  margin: 12px 0;
+  border: 1px solid #cbb7e6; /* light purple border */
+  border-radius: 8px;
+  font-size: 18px;
+  color: #4a2c69;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  background: #7b5ea6;
+  color: white;
+  border: none;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background: #5a3e80;
+}
+
+.error {
+  color: #b45ab4; /* light purple-red */
+  font-size: 14px;
+}
+
+.success {
+  color: #5a3e80;
+  font-size: 14px;
+}
+
+a {
+  color: #7b5ea6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body.home-body {
+  background: url('../images/bg-home.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #7b5ea6;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 32px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.intro {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.intro h2 {
+  font-size: 34px;
+  color: #7b5ea6;
+}
+
+.intro p {
+  font-size: 20px;
+  color: #4a2c69;
+  max-width: 600px;
+  margin: 10px auto 30px;
+}
+
+.intro img {
+  width: 80%;
+  max-width: 600px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(123, 94, 166, 0.3);
+}
+
+.destination-body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f3e8ff;
+  margin: 0;
+}
+
+.destination-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  padding: 30px;
+}
+
+.place-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(123, 94, 166, 0.15);
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+
+.place-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.place-card h3 {
+  color: #7b5ea6;
+  margin-top: 15px;
+  font-size: 20px;
+}
+
+.place-card p {
+  padding: 0 15px;
+  font-size: 15px;
+  color: #5a3e80;
+}
+
+.place-card button {
+  margin-top: 12px;
+  background: #7b5ea6;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  font-size: 16px;
+}
+
+.place-card button:hover {
+  background: #5a3e80;
+}
+
+.package-details {
+  background: #fff;
+  padding: 30px;
+  margin: 30px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(123, 94, 166, 0.15);
+  text-align: center;
+}
+
+.package-details h2 {
+  color: #7b5ea6;
+  font-size: 28px;
+}
+
+.package-details .logout {
+  color: #5a3e80;
+  font-weight: bold;
+  margin-top: 12px;
+  font-size: 18px;
+}
+
+.itinerary-body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f9f5ff;
+  margin: 0;
+}
+
+.itinerary-main {
+  padding: 10px 30px;
+}
+
+.itinerary-main h2 {
+  color: #6a4d89;
+  margin-top: 40px;
+  font-size: 26px;
+}
+
+.itinerary-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  margin-top: 20px;
+}
+
+.itinerary-card {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 24px;
+  box-shadow: 0 0 12px rgba(123, 94, 166, 0.1);
+  transition: transform 0.3s;
+}
+
+.itinerary-card:hover {
+  transform: translateY(-6px);
+}
+
+.itinerary-card h3 {
+  margin: 0 0 12px;
+  color: #7b5ea6;
+  font-size: 20px;
+}
+
+.itinerary-card p {
+  margin: 6px 0;
+  font-size: 15px;
+  color: #5a3e80;
+}
+
+.logout-body {
+  background-color: #f3e8ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.logout-box {
+  background: #ffffff;
+  padding: 40px 60px;
+  border-radius: 12px;
+  text-align: center;
+  box-shadow: 0 0 20px rgba(123, 94, 166, 0.15);
+}
+
+.logout-box h1 {
+  color: #6a4d89;
+  margin-bottom: 24px;
+  font-size: 32px;
+}
+
+.logout-box p {
+  margin: 12px 0;
+  font-size: 18px;
+  color: #5a3e80;
+}
+
+.btn {
+  margin-top: 24px;
+  display: inline-block;
+  background-color: #7b5ea6;
+  color: white;
+  padding: 14px 28px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 18px;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #5a3e80;
+}
+
+body.auth-body {
+  background: url('backphoto.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+body.home-body {
+  background: url('backphoto.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body.destination-body {
+  background: url('backphoto.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+body.itinerary-body {
+  background: url('backphoto.jpg') no-repeat center center/cover;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+}
+
+body.logout-body {
+  background: url('backphoto.jpg') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+.logout-container {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  text-align: center;
+  color: #4a3c6e;
+}
+
+.logout-container h1 {
+  font-size: 36px;
+  margin-bottom: 10px;
+  color: #7b5ca3;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
+.contact-form button {
+  background-color: #7b5ca3;
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.contact-form button:hover {
+  background-color: #684a91;
+}
+
